@@ -1,0 +1,30 @@
+@media (hover: hover) and (pointer: fine){
+   .button{
+      transition: all 0.5s linear;
+   }
+   .button:hover{
+      transition: all 0.5s linear;
+      box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.6);
+   }
+
+   .card-item{
+      transition: all 0.5s linear;
+   }
+   .card-item:hover{
+      transition: all 0.5s linear;
+      box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
+   }
+   
+   .social-block__img,
+   .footer-block__link,
+   .header-menu__item{
+      transform: translate(0.5s);
+      transition: all 0.5s linear;
+   }
+   .social-block__img:hover,
+   .footer-block__link:hover,
+   .header-menu__item:hover{
+      transition: all 0.5s linear;
+      transform: scale(1.15);
+   }
+}

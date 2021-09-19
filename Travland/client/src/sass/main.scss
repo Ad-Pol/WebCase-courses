@@ -1,0 +1,76 @@
+:root {
+   --mq-size-sm: 576px;
+   --mq-size-md: 768px;
+   --mq-size-lg: 992px;
+   --mq-size-xl: 1200px;
+   --theme-color-burgundy: #C9453B;
+   --theme-color-white: #fff;
+   --theme-color-gray: E5E5E5;
+   --theme-color-ftr: rgba(38, 148, 153, 0.04);
+   --theme-color-black: #000;
+ }
+
+// Для всех стилей
+
+h1, h2, h3{
+   font-family: Gelasio;
+}
+
+a{
+   text-decoration: none;
+}
+
+p, a{
+   font-family: Roboto;
+   font-weight: 400;
+}
+
+p{
+   opacity: 0.6;
+}
+
+.button{
+   background-color: var(--theme-color-burgundy);
+   text-align: center;
+   border-radius: 5px;
+   color: var(--theme-color-white);
+   font-family: Roboto;
+   line-height: 1.5;
+}
+
+// ------------------------------------------
+.container{
+   --container-width: 100%;
+  width: var(--container-width);
+  background: var(--theme-color-white)
+}
+
+@media screen and (min-width: 576px){
+   .container{
+      min-width: var(--mq-size-sm);
+   } 
+}
+
+
+@media screen and (min-width: 768px){
+   .container{
+      min-width: var(--mq-size-md);
+   }
+}
+
+@media screen and (min-width: 992px){
+   .container{
+      min-width: var(--mq-size-sm);
+   } 
+}
+
+
+@media screen and (min-width: 1200px){
+   
+   .container{
+      min-width: var(--mq-size-xl);
+      max-width: 1600px;
+      margin: 0 auto;
+   } 
+}
+
