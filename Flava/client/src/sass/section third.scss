@@ -1,0 +1,126 @@
+@import 'node_modules/slick-carousel/slick/slick.scss';
+
+.section--third{
+   position: relative;
+   // height: 461px;
+   width: 272px;
+   margin: 0 auto;
+   margin-top: 40px;
+   
+   .cards-wrapper{
+      margin-top: 40px;
+
+      .card-item{
+         width: 272px;
+         height: 344px;
+         position: relative;
+         
+         .card-item__img{
+            height: 100%;
+            width: 100%;
+            display: block;
+            object-fit: cover;
+            object-position: center;
+            overflow: hidden;
+         }
+
+         .card-item__text{
+            position: absolute;
+            bottom: 0;
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 1.35;
+            color: var(--theme-color-yellow);
+            text-align: center;
+            width: 100%;
+            padding: 15px 0;
+            background-color: rgba(18, 18, 18, 0.8);;
+            text-transform: uppercase;
+         }
+      }
+   }
+}
+
+.control{
+   position: absolute;
+   width: 25px;
+   height: 25px;
+   background: rgba(255, 255, 255, 0.05);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.control--next{
+   bottom: -43px;
+   right: 0;
+}
+
+.control--prev{
+   bottom: -43px;
+   right: 38px;
+}
+
+.control__img{
+   display: block;
+   object-fit: cover;
+   object-position: center;
+   height: 15px;
+   width: 9px;
+   }
+
+
+
+@media screen and (min-width: 576px){
+   
+}
+
+@media screen and (min-width: 768px){
+   .section--third{
+      width: 768px;
+      margin: 0 auto;
+      margin-top: 120px;
+
+      .cards-wrapper{
+         margin-top: 30px;
+
+         .card-item{
+            height: 371px;
+            width: 344px !important;
+            left: 20px;
+         }
+      }
+   }
+
+   .control{
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      background: rgba(255, 255, 255, 0.05);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .control--next{
+      top: -60px;
+      right: 10px;
+   }
+
+   .control--prev{
+      top: -60px;
+      right: 48px;
+   }
+
+}
+
+@media screen and (min-width: 992px){
+   
+}
+
+@media screen and (min-width: 1200px){
+   .section--third{
+      width: 1170px;
+   }
+}

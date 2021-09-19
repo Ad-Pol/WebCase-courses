@@ -1,0 +1,77 @@
+@media (hover: hover) and (pointer: fine){
+   .header-menu__link{
+      transition: all 0.5s linear;
+   }
+   .header-menu__link:hover{
+      transition: all 0.5s linear;
+      color: var(--theme-color-yellow);
+      text-shadow: -5px 5px 6px rgba(0, 0, 0, 0.8);
+   }
+   
+   #btn{
+      transition: all 0.5s linear;
+   }
+   #btn:hover{
+      transition: all 0.5s linear;
+      background: var(--theme-color-yellow);
+      color: var(--theme-color-white);
+      border-radius: 5px;
+   }
+   
+   .section__img--play{
+      transition: all 0.5s linear;
+   }
+   .section__img--play:hover{
+      transition: all 0.5s linear;
+      filter: grayscale(0);
+   }
+
+
+   .button{
+      transition: all 0.5s linear;
+   }
+   .button:hover{
+      transition: all 0.5s linear;
+      color: var(--theme-color-white);
+      border-radius: 15px;
+   }
+
+   .control{
+      transition: all 0.3s linear;
+   }
+   .control:hover{
+      transition: all 0.3s linear;
+      border-radius: 50%;
+   }
+
+   .card-item__link{
+      transition: all 0.5s linear;
+   }
+
+   .card-item__link:hover{
+      transition: all 0.5s linear;
+      border-radius: 15px;
+      background: var(--theme-color-yellow) !important;
+   }
+
+   .form{
+      button:hover{
+         border-radius: 0;
+      }
+   }
+
+   .section-item__block--social{
+      .section-item__link{
+         transition: all 0.5s linear;
+      }
+
+      .section-item__link:hover{
+         transition: all 0.5s linear;
+         border-radius: 50%;
+      }
+   }
+
+
+     
+   
+}

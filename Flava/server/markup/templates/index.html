@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="shortcut icon" href="../static/img/favicon.png"> 
+    <title>Flava</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+     <div class="container">
+      <header class="main-header">
+         <div class="header-wrapper">
+            <p class="text text--logo">Flava</p>
+            <div class="header-wrapper__container">
+               <div class="header-burger">
+                  <span class="header-burger__btn header-burger__btn--first-line"></span>
+                  <span class="header-burger__btn header-burger__btn--second-line"></span>
+                  <span class="header-burger__btn header-burger__btn--third-line"></span>
+                  <span class="header-burger__btn header-burger__btn--fourth-line"></span>
+               </div>
+               <ul class="header-menu">
+                  <li class="header-menu__item"><a href="" class="header-menu__link header-menu__link--is-active">HOME</a></li>
+                  <li class="header-menu__item"><a href="" class="header-menu__link">LINE UP</a></li>
+                  <li class="header-menu__item"><a href="" class="header-menu__link">TICKET</a></li>
+                  <li class="header-menu__item"><a href="" class="header-menu__link">SCHEDULE</a></li>
+                  <li class="header-menu__item"><a href="" class="header-menu__link">BE PART OF</a></li>
+                  <li class="header-menu__item"><a href="" class="header-menu__link">ABOUT</a></li>
+               </ul>
+               <a href="" id="btn" class="button">CREATE ACCOUNT</a>
+            </div>
+           
+         </div>
+         <!-- <h1 class="title">ALL ABOUT MUSIC - ITS ALL HERE</h1>
+         <p class="text text--about">Turn on the feeling with all music event </p>
+         <video autoplay muted loop preload="auto"   class="main-header__video">
+            <source src="../static/video/web.webm" type="video/webm">
+            <source src="../static/video/web.mp4" type="video/mp4">
+         </video> -->
+      </header>
+       
+      
+      <main class="main">
+         <section class="section section--first">
+            <div class="section-container">
+               <h1 class="title">ALL ABOUT MUSIC - ITS ALL HERE</h1>
+               <p class="text text--about">Turn on the feeling with all music event </p>
+               <img src="../static/img/play.svg" alt="Play button" class="section__img section__img--play">
+               <video autoplay muted loop preload="auto"   class="section__video">
+                  <source src="../static/video/web.webm" type="video/webm">
+                  <source src="../static/video/web.mp4" type="video/mp4">
+               </video>
+            </div>
+         </section>
+
+          <section class="section section--second">
+            <h2 class="title">MUSIC FESTIVAL START IN</h2>
+            <div class="timer">
+               <div class="timer__item">
+                  <span id="d" class="timer__index"></span>
+                  <p class="text">DAYS</p>
+               </div>
+
+               <div class="timer__item">
+                  <span id="h" class="timer__index"></span>
+                  <p class="text">HOURS</p>
+               </div>
+
+               <div class="timer__item">
+                  <span id="m" class="timer__index"></span>
+                  <p class="text">MINUTES</p>
+               </div>
+
+               <div class="timer__item">
+                  <span id="s" class="timer__index"></span>
+                  <p class="text">SECONS</p>
+               </div>
+            </div>
+            <a href="" class="button">BUY TICKET</a>
+          </section>
+
+          <section class="section section--third">
+            <h2 class="title">THE LINEUP OF FLAFA</h2>
+            <div class="cards-wrapper cards-wrapper--lineup">
+               
+                <div class="card-item">
+                   <img src="../static/img/lineup/rayul.png" alt="Rayul" class="card-item__img">
+                   <p class="card-item__text">RAYUL</p>
+                </div>
+
+                <div class="card-item">
+                  <img src="../static/img/lineup/atikh.png" alt="Atikh Bana" class="card-item__img">
+                  <p class="card-item__text">ATIKH BANA</p>
+               </div>
+
+               <div class="card-item">
+                  <img src="../static/img/lineup/rafaella.png" alt="Rafaella" class="card-item__img">
+                  <p class="card-item__text">raffaella</p>
+               </div>
+
+               <div class="card-item">
+                  <img src="../static/img/lineup/kanye.png" alt="Kanye West" class="card-item__img">
+                  <p class="card-item__text">KANYE WEST</p>
+               </div>
+
+               <div class="card-item">
+                  <img src="../static/img/lineup/pdd.png" alt="P-DD" class="card-item__img">
+                  <p class="card-item__text">p-dd</p>
+               </div>
+
+               <div class="card-item">
+                  <img src="../static/img/lineup/tyga.png" alt="Tyga" class="card-item__img">
+                  <p class="card-item__text">tyga</p>
+               </div>
+             </div>
+          </section>
+
+          <section class="section section--fourth">
+             <h2 class="title">SPONSORS</h2>
+             <div class="cards-wrapper cards-wrapper--sponsors">
+                <div class="card-item">
+                  <a href="" class="card-item__link"> <img src="../static/img/sponsors/baberock.png" alt="Baberock" class="card-item__img"> </a>
+                </div>
+
+                <div class="card-item">
+                  <a href="" class="card-item__link"> <img src="../static/img/sponsors/crocoday.png" alt="Crocoday" class="card-item__img"> </a>
+                </div>
+
+                <div class="card-item">
+                  <a href="" class="card-item__link"> <img src="../static/img/sponsors/firevent.png" alt="Firevent" class="card-item__img"> </a>
+                </div>
+
+                <div class="card-item">
+                  <a href="" class="card-item__link"> <img src="../static/img/sponsors/pizza.png" alt="Pizza" class="card-item__img"> </a>
+                </div>
+
+                <div class="card-item">
+                  <a href="" class="card-item__link"> <img src="../static/img/sponsors/trainesia.png" alt="Trainesia" class="card-item__img"> </a>
+                </div>
+
+                <div class="card-item">
+                  <a href="" class="card-item__link"> <img src="../static/img/sponsors/vstudio.png" alt="Vstudio" class="card-item__img"> </a>
+                </div>
+
+                <div class="card-item">
+                  <a href="" class="card-item__link"> <img src="../static/img/sponsors/baberock.png" alt="Baberock" class="card-item__img"> </a>
+                </div>
+
+                <div class="card-item">
+                  <a href="" class="card-item__link"> <img src="../static/img/sponsors/crocoday.png" alt="Crocoday" class="card-item__img"> </a>
+                </div>
+
+                <div class="card-item">
+                  <a href="" class="card-item__link"> <img src="../static/img/sponsors/firevent.png" alt="Firevent" class="card-item__img"> </a>
+                </div>
+
+                <div class="card-item">
+                  <a href="" class="card-item__link"> <img src="../static/img/sponsors/pizza.png" alt="Pizza" class="card-item__img"> </a>
+                </div>
+
+                <div class="card-item">
+                  <a href="" class="card-item__link"> <img src="../static/img/sponsors/trainesia.png" alt="Trainesia" class="card-item__img"> </a>
+                </div>
+
+                <div class="card-item">
+                  <a href="" class="card-item__link"> <img src="../static/img/sponsors/vstudio.png" alt="Vstudio" class="card-item__img"> </a>
+                </div>
+             
+               </div>
+          </section>
+
+          <section class="section section-fifth">
+             <h2 class="title">FIRST COME, FIRST SERVED</h2>
+            <p class="text">1,000 people who leave a request will receive a gift from FLAVA</p>
+            <form data-action="https://httpbin.org/post" id="form" class="form js-form-ajax" data-method="POST">
+               <input type="text" class="form__item form__item--name" placeholder="Your name" name='name' data-rule="required|name">
+               <input type="email" class="form__item form__item--email" placeholder="Your Email" name='email' data-rule="required|email">
+               <input type="number" class="form__item form__item--phone" placeholder="Your phone" name='phone' data-rule="required">
+               <textarea name="Msage" form="form" class="form__item form__item--massage" placeholder="Your message" name='text' data-rule="required"></textarea>
+               <button type="submit" class="button">Send</button>
+            </form>
+         </section>
+
+         <section class="section section-sixth">
+            <div class="section-item section-item--info">
+               <p class="text">Phone</p>
+               <a href="tel:+628122345678" class="section-item__link">+62 812 2345 678</a>
+               <p class="text">Email</p>
+               <a href="mailto:Flavamusicfest@mail.com" class="section-item__link">Flavamusicfest@mail.com</a>
+            </div>
+
+            <div class="section-item section-item--else">
+               <div class="section-item section-item--form">
+                  <p class="text">Keep In Touch</p>
+                  <form data-action="https://httpbin.org/post" class="form js-form-ajax" data-method="POST">
+                     <input type="email" placeholder="Your Email" class="form-item form-item--email" name='email' data-rule="required|email">
+                     <button type="submit" class="button">Subscribe</button>
+                  </form>
+
+               </div>
+
+               <div class="section-item__block section-item__block--social">
+                  <a href="" class="section-item__link"><img src="../static/img/social/inst.png" alt="Instagram" class="section-item__img"></a>
+                  <a href="" class="section-item__link"><img src="../static/img/social/youtube.png" alt="Toutube" class="section-item__img"></a>
+                  <a href="" class="section-item__link"><img src="../static/img/social/tictok.png" alt="TikTok" class="section-item__img"></a>
+               </div>
+
+            </div>
+
+         </section>
+         
+       </main>
+       <footer class="main-footer">
+         <div class="footer-container">
+            <div class="footer-block footer-block--rules">
+               <a href="" class="footer-block__link">Terms & Conditions for Event</a>
+               <p class="text">&bull;</p>
+               <a href="" class="footer-block__link">Privacy Policy</a>
+               <p class="text">&bull;</p>
+               <a href="" class="footer-block__link">Terms of Use</a>
+            </div>
+            <div class="footer-block footer-block--ealse">
+               <p class="text">Copyright &copy; 2021 &bull;</p>
+               <a href="" class="footer-block__link">Flava - Music Festival</a>
+            </div>
+            <!-- <p class="text">Terms & Conditions for Event &bull; Privacy Policy &bull; Terms of Use</p>
+            <p class="text text-copyright">Copyright &copy; 2021 &bull; Flava - Music Festival</p> -->
+         </div>
+       </footer>
+     </div>
+   
+     <script src="../static/js/main.js"></script>
+  </body>
+</html>

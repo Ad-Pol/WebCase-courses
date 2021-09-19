@@ -1,0 +1,90 @@
+:root {
+   --mq-size-sm: 576px;
+   --mq-size-md: 768px;
+   --mq-size-lg: 992px;
+   --mq-size-xl: 1200px;
+   --theme-color-yellow: #FEBA08;
+   --theme-color-white: #fff;
+   --theme-color-black: #000;
+   --theme-color-bg: #121212;
+ }
+
+ h1, h2, h3, p{
+    font-family: Poppins;
+ }
+
+ a{
+    text-decoration: none;
+ }
+
+ body{
+    background: var(--theme-color-bg);
+ }
+
+ button, a{
+    cursor: pointer;
+ }
+
+//  -----------------------------------
+
+.container{
+   --container-width: 100%;
+   width: var(--container-width);
+   background-color: var(--them-color-bg);
+}
+
+.title{
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 1.35;
+   text-align: center;
+   color: var(--theme-color-yellow);
+}
+
+.button{
+   display: flex;
+   width: 150px;
+   height: 51px;
+   align-items: center;
+   justify-content: center;
+   font-family: Roboto;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+   color: var(--theme-color-black);
+   background-color: var(--theme-color-yellow);
+   margin: 0 auto;
+}
+
+@media screen and (min-width: 576px){
+   .container{
+      min-width: var(--mq-size-sm);
+   }
+}
+
+@media screen and (min-width: 768px){
+   .container{
+      min-width: var(--mq-size-sm);
+   }
+
+   .title{
+      font-weight: 700;
+      font-size: 36px;
+ }
+}
+
+@media screen and (min-width: 992px){
+   .container{
+      min-width: var(--mq-size-sm);
+   }
+}
+
+@media screen and (min-width: 1200px){
+   .container{
+      min-width: var(--mq-size-xl);
+      max-width: 1920px;
+      margin: 0 auto;
+   }
+}
+
+
