@@ -1,0 +1,5 @@
+import './header'
+import './burger'
+import './map'
+import './slick'
+import './accordion'

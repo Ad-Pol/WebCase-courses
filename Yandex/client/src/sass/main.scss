@@ -1,0 +1,60 @@
+:root {
+   --mq-size-sm: 576px;
+   --mq-size-md: 768px;
+   --mq-size-lg: 992px;
+   --mq-size-xl: 1366px;
+   --theme-color-white: #FFFFFF;
+   --theme-color-header-bg: rgba(255, 255, 255, 0.2);
+   --theme-color-header-bg-shadow: rgba(0, 0, 0, 0.05);
+   --theme-color-y-black: #272727;
+   --theme-color-y-yellow: #FED305;
+   --theme-color-bg-card-shadow: rgba(59, 50, 135, 0.25);
+   --theme-color-y-violet: #211381;
+   --theme-color-gray: #CCCCCC;
+}
+
+body{
+   background: var(--theme-color-white);
+}
+
+h1, h2, h3, p{
+   font-family: Montserrat;
+}
+
+a{
+   text-decoration: none;
+}
+
+button, a{
+   cursor: pointer;
+}
+
+.button{
+   transition: all 1s ease 0s;
+}
+
+
+@media screen and (min-width: 576px){
+   .container{
+      width: var(--mq-size-sm);
+   }
+}
+
+@media screen and (min-width: 768px){
+   .container{
+      width: var(--mq-size-md);
+   }
+}
+
+@media screen and (min-width: 992px){
+   .container{
+      width: var(--mq-size-lg);
+   }
+}
+
+@media screen and (min-width: 1200px){
+   .container{
+      width: var(--mq-size-xl);
+      margin: 0 auto;
+   }
+}

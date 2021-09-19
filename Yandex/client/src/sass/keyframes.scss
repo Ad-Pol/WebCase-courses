@@ -1,0 +1,27 @@
+@keyframes slide-left {
+   0%{
+      transform: translateX(1000px);
+   }
+   100%{
+      transform: translateX(0);
+   }
+}
+
+@keyframes op {
+   0%{
+      opacity: 1;
+   }
+   100%{
+      opacity: 0;
+ 
+   }
+}
+
+@keyframes slide-left-button {
+   0%{
+      transform: translateX(1000px) rotate(0);
+   }
+   100%{
+      transform: translateX(0px) rotate(65deg);
+   }
+}
